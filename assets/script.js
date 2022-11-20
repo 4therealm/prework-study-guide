@@ -1,5 +1,4 @@
 
-
 var topics = ['HTML', 'CSS', 'Git', 'Javascript'];
 var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
@@ -22,10 +21,6 @@ function selectTopic() {
       console.log('Please try again!');
     }
 }
-
-
-
-
 
 /*
 if (topic === 'HTML') {
