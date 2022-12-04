@@ -4,10 +4,199 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>CSS</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>HTML</title>
 </head>
 <body>
+    <body>
+
+      <header>
+        <div class="headertext" id="header-css">
+          <h1>CSS</h1>
+          <nav id="top">
+            <a href="/index.html">home</a>
+            <a href="/Pages/HTML.html">html</a>
+            <a href="/Pages/CSS.html">css</a>
+            <a href="/Pages/Git.html">Git</a>
+            <a href="/Pages/Java.html">Javascript</a>
+          </nav>
+          <h3>Design</h3>
+          
+        </div>
+      </header>
+<!-- id like to make each "card" collapsable to minimize scrolling. collapsed card with just have the topic visible-->
+      
+    
+        <main>
+            <!--                      -->
+          <section class="card" id="css-rules">
+          <h1 class="card-topic">Rules</h1>
+          <!-- need to center topic texts-->
+          <ul>
+              <li>comments = /* text here */</li>
+              <li>code format</li>
+              <li>a class or id name cannot start with a number</li>
+              <li> (*) is a universal selector</li>
+          </ul>
+          </section>
+
+          <section class="card" id="css-syntax">
+            <h1 class="card-topic">Syntax</h1>
+            <ul> <h2>selectors</h2>
+                <li>simple = select elements based on name, #id, or .class</li>
+                <li>combinator = select elements based on specific relationship between them</li>
+                <li>pseudo-class = select elements based on a certain state</li>
+                <li>pseudo-element = select and style a part of an element</li>
+                <li>attribute = select elements based on an attribute or attribute value</li>
+            </ul>
+            <a href="https://www.w3schools.com/css/css_selectors.asp">Reference link</a>
+            </section>
+       
+          <section class="card" id="css-properties">
+            <h1 class="card-topic">Properties</h1>
+ <!--i plan to have the main properties listed and most likely have their sub-catagories on mouse-over or something like that depending on what i learn first-->
+            <ul> <h2>Background-</h2>
+                <li>color</li>
+                <li>image</li>
+                <li>repeat</li>
+                <li>attatchment</li>
+                <li>position</li>                
+            </ul>
+            <br>
+            <ul> <h2>Borders-style</h2>
+                <li>dotted</li>
+                <li>dashed</li>
+                <li>solid</li>
+                <li>double</li>
+                <li>groover</li>
+                <li>ridge</li>
+                <li>inset</li>
+                <li>outset</li>
+                <li>none</li>
+                <li>hidden</li>
+
+            </ul>
+            <br>
+            
+            <ul><h2>Margin & Padding</h2>
+                <li>margin: 0px 0px 0px 0px (top, right, bottom, left)</li>
+                <li>margin: auto; = horizontally center the element within its container</li>
+                <li>margin: values = auto(browser calculates), length(specifies margin in px, pt, cm, etc), %(specifies a margin in % of the width of the containing element), inherit(margin should be inherited from the parent element) </li>
+                <img src="/assets/box-model.png" alt="box-model">
+            </ul>
+
+            <br>
+
+            <ul><h2>Links</h2>
+            <li>a:link = normal, unvisited link</li>
+            <li>a:hover = a link when the user mouses over it</li>
+            <li>a: = a link the user has visited</li>
+            <li>a:a link the moment it is clicked</li>
+            <li>a hover must come after link and visited</li>
+            <li>active must come after a hover</li>
+            </ul>
+            <br>
+            <ul><h2>Lists</h2>
+            <li></li>
+            <li></li>
+            <li></li>
+            </ul>
+            <br>
+            <ul> <h2>tables</h2>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <br>
+            <ul> <h2>display</h2>
+                <li><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_display_js"></a></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <br>
+            <ul> <h2>overflow</h2>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <br>
+            <ul> <h2>float</h2>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <br>
+            <ul> <h2>position</h2>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <br>
+            <ul> <h2>inline-bloke</h2>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <br>
+            <ul> <h2>Navigation Bar</h2>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <br>
+            <ul> <h2>dropdowns</h2>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <br>
+            <ul> <h2>tooltip</h2>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <br>
+            <ul> <h2>overflow</h2>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            </section>
+       
+          <section class="card">
+            <h1 class="card-topic">Elements and Tags</h1>
+            <ul>
+                    <li>metadata</li>
+                    <li>lists</li>
+                    <li>buttons</li>
+                    <li>divisions</li>
+                    <li>text</li>
+                    <li>line breaks</li>
+                    <li>tables</li>
+            </ul>
+        </section>
+       
+          <section class="card" id="attributes">
+            <h1 class="card-topic">Attributes</h1>
+            
+            <ul>
+                
+                <li>href</li>
+                <li>src</li>
+                <li>width/height</li>
+                <li>alt</li>
+            </ul>
+            <a href="http://">https://www.w3schools.com/html/html_attributes.asp"></a>
+          </section>
+     </main>
+    
+        <footer>
+          <p>You can do this!</p>
+        </footer>
+        
+        <script src="../assets/script.js"></script>
+    
+      </body>
     
 </body>
 </html>
